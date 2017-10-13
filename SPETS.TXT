@@ -1,0 +1,240 @@
+  
+
+
+                      SPETSifikatsioon v.1.2
+
+
+
+ 1. Informatsiooniks
+
+ SPETS - see on programm toodete spetsifikatsiooni dokumentatsioonide
+ koostamiseks.  SPETS kasutab  ASCII ja otsefailide formaadis andmefaile
+ ASCII formaadis andmefailid on hilduvad paljude teiste ssteemidega.
+
+ SPETS v“imaldab koostada ja v„ljastada spetsifikatsioonide dokumenta-
+ tsioone;  dokumentatsiooni andmete muutumisel on lihtne neid parandada.
+
+ SPETS t””tab MS-DOS ja PC-DOS tpi arvutitel ja vajab 80 tulbalist 
+ monitori,  ning  operatsiooni  ssteemi  MS - DOS 3.0  v“i  hilisem;
+ EPSON (FX) vms. hilduvat printerit.
+
+
+ 2. Definitsioonid
+
+ Kasutamisjuhendi  lugemiseks  on  vajalik  kokku  leppida  m“ningate
+ definitsioonide osas.  Need oleks:
+
+ BAIT on informatsiooni hik. Iga kord, kui te vajutate klaviatuurile,
+ loetakse ks bait informatsiooni arvutisse.
+
+ PRIMAARNE ANDMEFAIL on ASCII tpi andmefail, mis sisaldab informatsi-
+ ooni dokumentatsioonide kohta.
+
+ SEKUNDAARNE ANDMEFAIL, e. otsefail (otsep””rdustega kirjete poole),
+ sisaldab informatsiooni programmile sobivas formaadis.
+
+ TEEK  -  alamkataloogide  kogum - kataloogitee  juurkataloogiet kuni 
+ failideni.
+
+ VIIP on programmi v“i operatsioonissteemi poolt v„ljastatav teade,
+ mis n„itab, et arvuti ootab kasutaja edasisi direktiive.
+
+
+ 3. T”” alustamine
+
+ T”” alustamiseks peate n„gema monitoril operatsioonissteemi viipa. 
+ (N. "C:>")  J„rgnevalt k„ivitage programm, sisestades "SPETS" v“i
+ "SPETS  andmefailinimi".
+ 
+ K“igepealt ilmub ekraanile tiitelleht.  Vajutage suvalisele nupule.
+ Ekraanile ilmub menriba ja teade (vt. lk. 1).
+ S“ltuvalt kuidas programm k„ivitati  jaguneb edasine t”” kaheks :
+ 
+ 3.1) Kui oli sisestatud "SPETS", tuleb valida kursoriga menribast
+    "Fail", s.o. tuleb nooles“rmistega liikuda soovitud kohale ja 
+    vajutada klahvudele <Enter> v“i <>.
+
+    Ekraanile  ilmub  rippmen (vt. lk. 2).  Nd valida vastavalt 
+    soovile, kas  alustada  uute  andmete  sisestamist  v“i  vanade 
+    andmete muutmist. (Alumisel ekraanireal ilmub vastav teade. )
+    Vajutades <Enter> ilmub ekraanile sisestusaken, mis ksib avatava
+    andmefaili  nime.  Sisestada  see  ja  vajuta <Enter>.  Seej„rel 
+    ilmub sisestatud nimi laiendiga ".spf" ekraani lemisse paremasse
+    nurka, meenutamaks, millise failiga t”” k„ib.
+    
+    Kui  on  valitud  "Uued algandmed"  ja  sisestatud  failinimi, 
+    kontrollitakse kas antud nimeline fail on juba olemas v“i mitte.
+    Leides samanimelise faili, ksitakse kas soovite t””d j„tkata v“i
+    mitte, vajutada vastavalt <Enter> v“i <Esc> (Escape - p“genema).
+    Vajutades <Enter'ile> j„tkub samanimelise faili redigeerimine.
+    Kui faili ei leitud j„tkub t”” edasi pn. 4.
+
+ 3.2) Kui oli sisestatud "SPETS ja failinimi", otsitakse antud faili
+    andmefailide kataloogist.  Kui failinime ei leitud ei leitud, siis
+    ilmub vastav teade ja ksitakse kas alustada uue faili loomist,
+    kui jah, siis vajuta <Enter> miudu klahvile <Esc>.
+
+ 
+ 4. Dokumentatsiooni redaktor
+
+ Valides menribalt "Nimekiri" ilmub ekraanile rippmen tekstiga
+ "Spetsifikatsiooni Leht" j„tkamiseks vajuta <Enter>, v“i <Esc> 
+ katkestamiseks, misj„rel  kursor  liigub  tagasi  menribale.   
+ Vajutades  <Enter> sisenete "Dokumentatsiooni redaktorisse " ja 
+ ekraanile ilmub j„rgmine tabeli vorm (vt. lk. 3 ), kuhu  sisestada  
+ informatsioon  spetsifikatsioon dokumentatsiooni kohta: 
+ dokumentatsiooni t„his ja m„rkused, mis aitavad meelde tuletada, 
+ millise dokumentatsiooniga on meil tegemist (ilmub hiljem selgitava 
+ m„rkusena ekraanile ).
+
+ Sisestatud teksti saab parandada vastavalt soovile, kas seda uuesti 
+ trkkimise teel v“i vajutades funktsionaal klahvile <F3>. mille 
+ j„rel saab muutmist v“i lisamist alustada eelnevalt sisestatud teksti
+ l“pust, ilma seda uuesti trkkimata.
+
+ Kui vajalik dokumentatsioon on sisestatud sisestatud, vajutada funkt-
+ sionaal klahvile <F2> andmete salvestamiseks ja redaktorist v„ljumiseks.
+ Vajutades <Esc> s“rmisele, tehtud muudatused thistatakse.
+
+
+ 5. Spetsifikatsiooni redaktor
+
+ Valides menribalt "Redigeerimine" ilmub ekraanile rippmen, kus
+ on esitatud dokumentatsiooni t„histe loetelu 1..19 ja alumisel real
+ vastavad selgitavad m„rkused. Valida soovitav dokument ja sisenemiseks
+ vajuta <Enter>, v“i <Esc> katkestamiseks, misj„rel  kursor  liigub  
+ tagasi  menribale.  Vajutades  <Enter> sisenete "Dokumentatsiooni 
+ redaktorisse " ja ekraanile ilmub j„rgmine tabeli vorm (vt. lk. 4 ).
+
+ Andmete sisestus algab kirjanurgast. Arvuti ksib andmeid koostaja,
+ kuup„eva ja dokumentatsiooni nimetuste kohta (kahel real).
+
+ Tabeli  lahtrite  vahel liikumiseks  kasutatakse  noole  s“rmiseid; 
+ abiklahve <Home> ja <End>, mis viivad kursori kas rea algusesse v“i 
+ l“ppu.  Leheklgede kaupa liikumiseks kasutatakse s“rmiseid <PageUp> 
+ ja <Page Down>, mis kerivad dokumentatsiooni listingut kas les v“i 
+ allapoole vastavalt vajadusele.
+
+ Redaktoris on kasutusel j„rgmised funktsionaalsed klahvid:
+
+ <F1>   Informatsioon dokumentatsiooni kohta.
+ <F2>   Salvestab ja l“petab tehtud t””.
+ <F3>   Lubab redigeerimist alustada eelnevalt sisestatud teksti l“pust.
+ <F5>   Vaatab spetsifikatsiooni ASCII formaadis. 
+        (Kasutab programmi Read.com )
+ <F8>   Abiklahv dokumendi koostamiseks.
+ <F9>   Rea lisamine kursori alla.
+ <F10>  Kursoriga m„rgistatud rea kustutamine.
+
+ Kui kursor asub t„histuste lahtris ja vajutada <F8> ilmub ekraani
+ vasemasse allnurka viip tekstiga "Valik>            [0...9]" kuhu
+ sisestada number 0-st 9 ni ja vajutada <Enter>, siis tuleb kursori
+ alla ks j„rgnevatest tekstidest:
+
+      0   T“mbab joone "---"     5   MUUD TOOTED
+      1   DOKUMENTATSIOON        6   MATERJALID
+      2   KOOSTUD                7   KOMPLEKTID
+      3   DETAILID               8   TAARAKOMPLEKTID
+      4   STANDARDSED TOOTED     9   Koostejoonis
+ 
+ Vajutades klahvile <F1> ilmneb ekraanile eelnevate tekstide loetelu, 
+ meeldetuletuseks.
+ Vajutades <F8> teistes lahtrites see tulemusi ei anna.
+
+ 6. V„ljastamine printerile
+
+ Valides menribalt "Tulemused" ilmub ekraanile rippmen, kus on
+ esitatud  dokumentatsiooni t„histe loetelu 1..19.  Alumisel  real
+ vastavad selgitavad m„rkused. V„ljatrkiks valida soovitav dokument 
+ ja sisenemiseks vajuta <Enter>, v“i <Esc> katkestamiseks, misj„rel  
+ kursor  liigub tagasi  menribale.  Vajutades  <Enter> ksitakse
+ kas trkkida dokument printerile v“i faili (selle hilisemaks v„lja-
+ trkiks n„it. laserprinteril).
+
+ Printerile v„ljatrkiks aseta paber printerisse ja llita printer 
+ sisse.  NB!  Et trkkida printerile  peab  printer olema "On Line"
+ reziimis.
+
+ Faili trkkimiseks vajuta noole s“rmisele "->" ja seej„rel <Enter>.
+ V„ljundfaili nimi moodustatakse etteantud andmefaili nimest ja 
+ lisatakse laiend ".D[nr]", kus nr on vastava dokumendi j„rjekorra
+ number.
+
+ Kui kogu spetsifikatsiooni dokumentatsioon on v„ljastatud, v„ljuda
+ menribasse ja valida men "Fail" klahviga <Home>.
+ Uue spetsifikatsiooni dokumentatsiooni loomiseks alusta uuesti
+ algusest (vt. pn. 3.1)
+
+ T”” l“petamiseks valida "Faili" all asetsevast rippmenst 
+ "L“petamine" ja vajuta <Enter>.
+
+
+ 7. Muud v“imalused
+
+ Valides "Fail" rippmenst "Kataloogi kuva", ilmub ekraanile 
+ sisestus aken viibaga "Fail >  *.SPF". Vajutades <Enter> v„ljastab 
+ programm k“ik spetsifikatsiooni dokumentatsiooni failid, mis asuvad
+ aktiivses kataloogis. (D:\SPETSIF\DATA ). Asendades "*.SPF" laiendi 
+ t„rniga ("*.*") v„ljastab programm k“ik failid aktiivses kataloogis.
+
+ Valides "Teegi vahetus" saab vahetada aktiivset kataloogi.
+
+ "V„ljumine DOS'i" lubab sisestada DOS'i k„ske programmist v„ljumata.
+ Sisestades m“ne DOS'i k„su t„idetakse see, vastav informatsioon ilmub
+ ekraanile.  Kui k„sk j„i sisestamata v„ljub programm DOS'i viibale.
+ Kui on t„idetud soovitud tegevused, sisestada "EXIT" t”” j„tkamiseks
+ SPETSifikatsioonides.  Programm j„tkab t””d samast kohast, kus ta  
+ pooleli j„i. 
+ N„iteks: kopeerida failid kettalt a: aktiivsesse kataloogi kettale d:, 
+ sisestada :            copy a:*.S* d: .
+
+ "Valiku" rippmens v“imaldatakse muuta ja salvestada ssteemi 
+ parameetreid: ekraani v„rve; failikataloogide nimesid teekidel -
+ tulemused s„ilivad failis "SPETS.INI"
+
+ "Abiinfo" v„ljastab selle faili. 
+ Dokumentatsioonis viidatud pilte saab vaadata juhendist.
+
+ 
+ 
+ 8. Failid kettal
+
+
+ andmefailinimi.SPF     Primaarne andmefail, mis sisaldab infot 
+                        spetsifikatsiooni dokumentatsiooni kohta.
+
+ andmefailinimi.S[nr]   Sekundaarne andmefail, mis sisaldab 
+                        spetsifikatsiooni dokumentatsioone.
+
+ andmefailinimi.D[nr]   Primaarne andmefail, mis sisaldab ASCII
+                        formaadis spetsifikatsiooni dokumentatsioone,
+                        hilisemaks v„ljatrkiks.
+
+          SPETS.EXE     Spetsifikatsioonide p“hiprogramm.
+
+          SPETS.INI     Programmi ssteemi fail, mis sisaldab ssteemi
+                        parameetrite v„„rtusi.
+
+          SPETS.DOC     SPETSifikatsioonide juhend (see fail).
+                        V„ljatrkiks sisesta ssteemi viibale:
+                          TYPE  SPETS.DOC > PRN
+                                v“i
+                          COPY  SPETS.DOC > PRN .
+           READ.COM     Programm andmefailide vaatamiseks ASCII formaadis.
+
+ _________________________________________________________________________
+ 
+ "andmefailinimi" on suvaline kaheksast m„rgist koosnev nimi, mis algab
+ t„hega ja alates teisest m„rgist v“ib sisestada ka numbreid. Soovitatav
+ on mitte kasutada failinimes t„ppidega t„hti.
+ 
+ "nr" n„itab antud spetsifikatsiooni dokumendi j„rjekorra numbrit 1...19.
+
+ 
+ Informatsiooni saamiseks p””rduda:
+
+        Anti Puusepp
+        info@andi.pri.ee
+        www.andi.pri.ee
+        Gsm.: 056 212 886
+
